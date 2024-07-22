@@ -108,7 +108,6 @@ class ConsoleApp:
         else:
             print("Неизвестный статус.")
             self.change_status(book_id)
-            return
         try:
             book_id = int(book_id)
         except ValueError:
